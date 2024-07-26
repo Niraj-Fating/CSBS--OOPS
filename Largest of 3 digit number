@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a,b,c,num;
+    cout << "Enter any three digit number:";
+    cin >>num;
+    
+    if(num>99 && num<1000)
+    {
+        a=num%10;
+        num=num/10;
+        b=num%10;
+        num=num/10;
+        c=num%10;
+        num=num/10;
+        
+        if(a>b && a>c)
+        {
+            cout <<a << " is greater";
+        }
+        else
+        {
+            if(b>c)
+            {
+            cout <<b << " is greater";
+            }
+            else
+            {
+            cout <<c << " is greater";
+            }
+         }
+    }
+    else
+    {
+        cout <<"Enter 3 digit number";
+    }
+    return 0;
+}
+        
+            
+        
+        
