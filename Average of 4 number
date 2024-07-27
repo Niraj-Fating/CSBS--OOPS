@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a,b,c,d,avg;
+    
+    cout <<"Enter any four number:";
+    cin >>a>>b>>c>>d;
+    
+    avg=(a+b+c+d)/4;
+    
+    cout <<"Average of given number is:"<<c;
+    return 0;
+}
