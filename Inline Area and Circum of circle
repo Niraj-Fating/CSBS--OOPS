@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+inline float area(int x)
+{
+    int c;
+    c=3.14*x*x;
+    return c;
+}
+inline int circum(int a)
+{
+    int d;
+    d=2*3.14*a;
+    return d;
+}
+
+int main()
+{
+    float m,o,p;
+    m=4;
+    
+    o=area(m);
+    
+    cout <<"Area of circle is:"<<o;
+    
+    p=circum(m);
+    cout <<"\nCircumferance of circle is:"<<p;
+    return 0;
+}
