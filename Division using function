@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int divi(int,int);
+
+int main()
+{
+    int a,b;
+    a=10;
+    b=2;
+    
+    cout <<"Division is:"<<divi(a,b);
+    
+    return 0;
+}
+int divi(int a,int b)
+{
+    int c;
+    c=a/b;
+    return c;
+}
