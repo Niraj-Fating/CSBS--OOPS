@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+inline int squ(int x)
+{
+    int c;
+    c=x*x;
+    return c;
+}
+inline int cube(int a)
+{
+    int d;
+    d=a*a*a;
+    return d;
+}
+
+int main()
+{
+    int m,o,p;
+    m=4;
+    
+    o=squ(m);
+    
+    cout <<"Square is:"<<o;
+    
+    p=cube(m);
+    cout <<"\ncube is:"<<p;
+    return 0;
+}
