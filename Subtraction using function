@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int sub(int,int);
+
+int main()
+{
+    int a,b;
+    a=10;
+    b=2;
+    
+    cout <<"Substraction is:"<<sub(a,b);
+    
+    return 0;
+}
+int sub(int a,int b)
+{
+    int c;
+    c=a-b;
+    return c;
+}
