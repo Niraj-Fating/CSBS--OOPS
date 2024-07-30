@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float l,peri;
+    
+    cout <<"Enter radius of sphere:";
+    cin >>l;
+    
+    peri = 12*l;
+    
+    cout <<"perimeter of cube is:"<<peri;
+    return 0;
+}
