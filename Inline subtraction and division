@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+inline int sub(int x, int y)
+{
+    int c;
+    c=x-y;
+    return c;
+}
+inline int divi(int a, int b)
+{
+    int d;
+    d=a/b;
+    return d;
+}
+
+int main()
+{
+    int m,n,o,p;
+    m=40;
+    n=2;
+    o=sub(m,n);
+    
+    cout <<"Substraction is:"<<o;
+    
+    p=divi(m,n);
+    cout <<"\nDivision is:"<<p;
+    return 0;
+}
