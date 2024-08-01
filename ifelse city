@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    //use 1 for red 2 for green 3 for yellow 
+    int x;
+    cout<<"1.mumbai\n2.pune\n3.kolkata\n4.nagpuer\n5.channai";
+    cout<<"\nEnter vale of x:";
+    cin >>x;
+    
+    if (x==1)
+    {
+        cout<<"Mumbai";
+    }
+    else if(x==2)
+    {
+        cout<<"Pune";
+    }
+    else if(x==3)
+    {
+        cout<<"Kolkata";
+    }
+    else if(x==4)
+    {
+        cout<<"Nagpur";
+    }
+    else if(x==5)
+    {
+        cout<<"channai";
+    }
+    else
+    {
+        cout<<"invalid choice";
+    }
+    return 0;
+}
