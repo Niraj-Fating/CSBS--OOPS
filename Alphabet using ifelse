@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    char x;
+    cout<<"\nEnter any alphabet:";
+    cin >>x;
+    
+    if (x=='a' || x=='A')
+    {
+        cout<<"It is a vowel";
+    }
+    else if(x=='e' || x=='E')
+    {
+        cout<<"It is a vowel";
+    }
+    else if(x=='i' || x=='I')
+    {
+        cout<<"It is a vowel";
+    }
+    else if(x=='o' || x=='O')
+    {
+        cout<<"It is a vowel";
+    }
+    else if(x=='u' || x=='U')
+    {
+        cout<<"It is a vowel";
+    }
+    else
+    {
+        cout<<"It is consonent";
+    }
+    return 0;
+}
