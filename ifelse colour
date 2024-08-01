@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    //use 1 for red 2 for green 3 for yellow 
+    int x;
+    cout<<"Enter vale of x:";
+    cin >>x;
+    
+    if (x==1)
+    {
+        cout<<"Red colour";
+    }
+    else if(x==2)
+    {
+        cout<<"Green colour";
+    }
+    else if(x==3)
+    {
+        cout<<"BLue colour";
+    }
+    else
+    {
+        cout<<"invalid choice";
+    }
+    return 0;
+}
