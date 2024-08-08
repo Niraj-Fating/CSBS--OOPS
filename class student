@@ -1,0 +1,39 @@
+
+#include <iostream>
+using namespace std;
+
+class student
+{
+    private:
+    string name;
+    int age;
+    float height;
+    
+    public:
+    void getdetails()
+    {
+        cout<<"Enter name of student:";
+        cin>>name;
+        cout<<"Enter Age of student:";
+        cin>>age;
+        cout<<"Enter height of student:";
+        cin>>height;
+    }
+    
+    void putdetails()
+    {
+        cout<<"Name="<<name;
+        cout<<"\nAge="<<age;
+        cout<<"\nHeight="<<height;
+    }
+};
+int main() 
+{
+    student s;
+    s.getdetails();
+    s.putdetails();
+   
+    return 0;
+}
+classtudent.txt
+Displaying classtudent.txt.
