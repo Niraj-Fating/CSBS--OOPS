@@ -1,0 +1,33 @@
+
+#include <iostream>
+using namespace std;
+class employee
+{
+    private:
+           string name;
+           int age;
+           float salary;
+           string gender;
+    public:
+           void getdetails()
+           {
+               cout<<"Enter name,age,salary,gender=";
+               cin>>name>>age>>salary>>gender;
+           }
+           void putdetails()
+           {
+               cout<<"\nName="<<name;
+               cout<<"\nAge="<<age;
+               cout<<"\nsalary="<<salary;
+               cout<<"\n gender="<<gender;
+           }
+};
+       int main()
+       {
+           employee e;
+           e.getdetails();
+           e.putdetails();
+    return 0;
+}
+class employee.txt
+Displaying class employee.txt.
