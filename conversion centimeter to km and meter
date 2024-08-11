@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    float centimeters, meters, kilometers;
+
+    cout << "Enter the length in centimeters: ";
+    cin >> centimeters;
+
+    meters = centimeters / 100.0;                        
+    kilometers = centimeters / 100000.0;
+
+    cout << "Length in meters: " << meters << " m" << endl;
+    cout << "Length in kilometers: " << kilometers << " km" << endl;
+
+    return 0;
+}
